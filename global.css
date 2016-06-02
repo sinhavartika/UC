@@ -401,8 +401,28 @@ img{
 	left: 10px;
 }
 
+.circle-image-container{
+	-webkit-shape-outside:circle();
+  	shape-outside:circle();
+}
 .circle-image-container img{
 	border-radius: 50%;
+}
+
+.article{
+	width: 75%;
+    margin: 10px auto;
+    border-radius: 20px;
+    padding: 1px 15px;
+    font-size: 14px;
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
 }
 
 /** Specific to learn page */
@@ -425,8 +445,6 @@ img{
 }
 #caregiver-sharing,#nayar-akhtar{ 
 	margin: 15px;
-  	-webkit-shape-outside:circle();
-  	shape-outside:circle();
 }
 #caregiver-sharing{
     margin-left: -32px;
@@ -490,12 +508,7 @@ img{
 	text-align: center;
 }
 .help-section .article{
-    width: 75%;
-    margin: 10px auto;
     background-color: #FFE892;
-    border-radius: 20px;
-    padding: 1px 15px;
-    font-size: 14px;
 }
 .help-section .pink-image-container{
     margin-left: 4px;
@@ -525,5 +538,62 @@ img{
 	.footer-img{
 		width: 100%;
     	display: block;
+	}
+}
+
+.talk-wrapper .article{
+	background-color: #FFE892;
+	padding-top: 40px;
+}
+.talk-wrapper .article .circle-image-container{
+	width: 50%;
+}
+.talk-wrapper .article h4{
+	margin-top: 25px;
+}
+.talk-video-container {
+    margin: 0 25px;
+    margin-bottom: -12%;
+}
+.talk-video-container > div {
+    float: left;
+    position: relative;
+}
+.talk-video-container .circle-image-container {
+    width: 55%;
+    margin-right: -25px;
+    z-index: 3;
+    min-width: 220px;
+}   
+.talk-title{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: #FFE951;
+    border: 1px solid black;
+    padding: 20px;
+    z-index: 2;
+}
+.talk-title h4{
+    margin-top: 30px;
+    text-align: center;
+}
+.talk-title p{
+	text-align: center;
+}
+.orange-circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #F68C43;
+    border: 1px solid black;
+    z-index: 1;
+    top: -66px;
+    left: 140px;
+}
+
+@media only screen and (max-width: 767px){
+	.orange-circle{
+		display: none;
 	}
 }
