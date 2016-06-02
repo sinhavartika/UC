@@ -424,10 +424,17 @@ img{
 	width: 40%;
 }
 #caregiver-sharing,#nayar-akhtar{ 
-	margin: 5px;
+	margin: 15px;
   	-webkit-shape-outside:circle();
   	shape-outside:circle();
 }
+#caregiver-sharing{
+    margin-left: -32px;
+}
+#nayar-akhtar{
+    margin-right: -32px;
+}
+    
 @media (min-width: 767px){
 	#conf-grp-pic{
 	    width: 112%;
