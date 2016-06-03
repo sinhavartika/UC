@@ -425,6 +425,10 @@ img{
    clear: both;
 }
 
+.talk-container p, .learn-container p, .help-container p, .lead-container p{
+	text-align: justify;
+}
+
 /** Specific to learn page */
 .learn-container{
 	background-color: #9093C8;
@@ -541,14 +545,14 @@ img{
 	}
 }
 
-.talk-wrapper .article{
+.talk-container .article{
 	background-color: #FFE892;
 	padding-top: 40px;
 }
-.talk-wrapper .article .circle-image-container{
+.talk-container .article .circle-image-container{
 	width: 50%;
 }
-.talk-wrapper .article h4{
+.talk-container .article h4{
 	margin-top: 25px;
 }
 .talk-video-container {
