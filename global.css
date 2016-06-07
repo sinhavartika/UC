@@ -510,7 +510,6 @@ img{
     color: #FFFFF6;
     padding: 30px;
 }
-
 @media (max-width: 768px){
 	.yellow-section > div{
 		margin-top: 140px;
@@ -520,6 +519,18 @@ img{
 		top: -130px;
 	}
 }
+
+@media (min-width: 500px) and (max-width: 767px){
+	.yellow-section > div {
+    margin-top: 160px;
+	}
+	.yellow-section > div .pink-image-container {
+	    width: 200px;
+	    top: -170px;
+	}	
+}
+
+
 .help-section.help-l-section{
 	margin-left: 10%;
 }
