@@ -835,6 +835,12 @@ img{
 		margin-left: -40px;
 	}
 }
+@media (max-width: 350px){
+	.spotlight-container h1 {
+	    margin-bottom: -45px;
+	    margin-left: -20px;
+	}
+}
 @media (min-width: 491px) and (max-width: 768px) {
   	.moment{
 		width: 60%;
