@@ -725,7 +725,7 @@ img{
 
 .fun-section .full-image-container{
 	z-index: 2;
-	position: absolute;
+	position: relative;
 	margin-top: 30px;
 }
 .fun-section .pink-circle {
@@ -737,6 +737,7 @@ img{
     z-index: 1;
     text-align: center;
     float: right;
+    margin-top: -25%;
 }
 .pink-circle p {
     margin-top: 170px;
